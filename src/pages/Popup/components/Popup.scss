@@ -1,0 +1,20 @@
+.App {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 5px;
+
+  .AppHeader {
+    display: flex;
+    align-items: center;
+
+    .AppHeaderName {
+      color: #005;
+      flex: 1;
+      font-size: 16px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  }
+}

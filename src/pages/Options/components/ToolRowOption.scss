@@ -1,0 +1,28 @@
+.ToolRowOption {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+
+  &.OddRow {
+    background-color: #eeeeee;
+  }
+
+  &.EvenRow {
+    background-color: #dddddd;
+  }
+
+  .ToolIconColumn {
+    height: 32px;
+    margin-right: 10px;
+
+    .ToolIcon {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .ToolDetailColumn {
+    flex: 1;
+    font-size: 12px;
+  }
+}

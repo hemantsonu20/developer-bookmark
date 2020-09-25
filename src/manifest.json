@@ -1,0 +1,26 @@
+{
+  "name": "Developer Bookmark",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Bookmark for frequently used online dev tools",
+  "author": "Pratapi Hemant Patel",
+  "homepage_url": "https://github.com/hemantsonu20/developer-bookmark",
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/img/favicon-32x32.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "16": "assets/img/favicon-16x16.png",
+    "32": "assets/img/favicon-32x32.png"
+  },
+  "web_accessible_resources": [
+    "assets/img/favicon-16x16.png",
+    "assets/img/favicon-32x32.png"
+  ],
+  "permissions": ["storage"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
