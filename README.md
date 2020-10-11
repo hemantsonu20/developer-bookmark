@@ -1,5 +1,5 @@
 # Developer Bookmark Chrome Extension
-A chrome extension for developers with link to some commonly used online tools. (Not Yet published)
+A chrome extension for developers with link to some commonly used online tools. (Not Yet published on Chrome Store)
 
 # How it looks
 **Extension**  
